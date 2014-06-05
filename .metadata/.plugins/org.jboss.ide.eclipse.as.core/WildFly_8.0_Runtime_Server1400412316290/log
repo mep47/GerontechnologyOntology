@@ -1,0 +1,821 @@
+!SESSION 2014-05-18 09:01:14.361 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:18:50.576
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:18:56.098
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:23:25.054
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:23:25.245
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:23:26.062
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:23:31.481
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:25:03.855
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:25:04.050
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:25:04.868
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:25:10.287
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:26:34.909
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:26:34.917
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:26:34.947
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:26:44.131
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:26:44.266
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:26:45.084
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:26:50.599
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:27:20.536
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:27:20.656
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:27:33.336
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:27:33.341
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:27:33.347
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:27:50.009
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:27:55.522
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:29:11.415
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:31:46.541
+!MESSAGE 2 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:34:09.073
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:35:19.893
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:35:19.898
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:35:19.904
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:35:26.917
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:35:27.073
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:35:27.890
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:35:33.401
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:38:01.186
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:38:01.189
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:39:27.518
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:39:42.458
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:39:42.584
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:39:55.016
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:40:00.428
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:45:18.386
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:45:48.018
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:46:11.944
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:46:21.353
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:46:21.358
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:46:21.363
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:50:23.005
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-18 18:52:25.698
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-18 18:52:25.823
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:52:39.512
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:52:39.517
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-18 18:52:39.523
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-18 18:52:45.510
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-18 18:52:51.017
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:47:50.702
+!MESSAGE 4 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:49:16.663
+!MESSAGE 4 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 03:49:34.625
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 03:49:34.724
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:50:00.421
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:50:00.425
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:50:00.430
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 03:50:06.329
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 03:50:11.839
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:54:08.394
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:55:01.707
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 03:55:05.475
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 03:55:05.577
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:55:13.650
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:55:13.654
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:55:13.659
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 03:55:19.606
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 03:55:25.118
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:57:28.169
+!MESSAGE 4 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:59:12.637
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 03:59:50.480
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:00:38.917
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:01:18.093
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:02:44.997
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:02:45.098
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2014-05-19 04:02:45.098
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:02:52.581
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:02:52.585
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:02:52.591
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:02:56.925
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:03:02.431
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:10:07.367
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:10:19.911
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:11:47.254
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:13:55.510
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:13:55.512
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:14:15.347
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:14:15.482
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:14:21.012
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:14:21.016
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:14:21.022
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:14:26.191
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:14:31.699
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:17:19.895
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:18:09.946
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:18:21.685
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:18:21.690
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:18:21.695
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:18:59.814
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:18:59.961
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:19:06.616
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:19:06.620
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:19:06.626
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:19:11.426
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:19:16.932
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:21:22.691
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:21:32.336
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:21:32.340
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:21:32.345
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:25:26.289
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:25:42.527
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:25:42.681
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:25:48.894
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:25:48.898
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:25:48.904
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:25:54.912
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:26:00.425
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:31:32.400
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:31:38.577
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:31:38.732
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:31:44.918
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:31:44.922
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:31:44.927
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:31:52.989
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:31:58.403
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:33:28.771
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:33:34.852
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:33:34.856
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:33:34.862
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:34:52.374
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:34:57.916
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:34:57.919
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:34:57.924
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:40:35.386
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:40:53.220
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:40:53.375
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:40:59.757
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:40:59.760
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:40:59.765
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:41:04.064
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:41:09.573
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:50:20.274
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:50:25.685
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:50:25.830
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:50:52.837
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:50:52.841
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:50:52.846
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:50:57.795
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:51:03.302
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:52:14.786
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:52:19.143
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:52:19.147
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:52:19.153
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:52:54.343
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:53:17.643
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:53:17.665
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:53:17.670
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:56:41.941
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:57:33.955
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 04:57:39.553
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 04:57:39.713
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:57:45.873
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:57:45.877
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 04:57:45.883
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 04:57:50.134
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 04:57:55.640
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:04:29.105
+!MESSAGE 3 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:04:50.651
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:04:57.335
+!MESSAGE 3 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:04:57.338
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 05:05:02.584
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 05:05:02.753
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:05:07.863
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:05:07.867
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:05:07.875
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 05:05:13.515
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 05:05:19.027
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:07:28.074
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:07:28.079
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:07:28.084
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:09:25.487
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:09:38.278
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:10:15.201
+!MESSAGE 2 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:11:09.693
+!MESSAGE 3 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:11:09.696
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 05:11:31.039
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 05:11:31.206
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:11:37.766
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:11:37.770
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:11:37.776
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 05:11:41.991
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 05:11:47.904
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:12:46.260
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:13:00.817
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 05:13:37.100
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 05:13:37.260
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:13:43.577
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:13:43.582
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 05:13:43.588
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 05:13:47.686
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 05:13:53.192
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:07:45.358
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:08:42.166
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-19 16:08:49.145
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-19 16:08:49.308
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:08:56.073
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:08:56.077
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:08:56.082
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 16:08:59.837
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 16:09:05.343
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:10:49.167
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:10:59.340
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:10:59.344
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:10:59.349
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:16:35.197
+!MESSAGE 1 files modified in module OntoWeb
+!SESSION 2014-05-19 16:21:38.301 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:22:12.572
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:22:12.578
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 16:22:12.585
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-19 16:22:19.167
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-19 16:22:25.484
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:10:22.402
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:10:27.834
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:10:27.839
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:10:27.846
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:22:03.702
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:22:48.242
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:22:54.079
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:22:54.083
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:22:54.089
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:27:42.675
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:27:49.999
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:27:50.004
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:27:50.010
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:28:23.738
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:28:28.327
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:28:28.331
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-19 18:28:28.338
+!MESSAGE Module OntoWeb published without error.
+!SESSION 2014-05-20 06:27:00.363 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-20 06:31:00.068
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-20 06:31:00.075
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-20 06:31:00.083
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-20 06:31:05.123
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-20 06:31:10.657
+!MESSAGE Server Startup Succeeded
+!SESSION 2014-05-23 05:07:15.609 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-23 08:36:27.033
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-23 08:36:27.052
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-23 08:36:27.058
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-23 08:36:28.245
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-23 08:36:33.882
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-05-23 08:36:42.853
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-05-23 08:36:43.009
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-23 08:36:53.998
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-23 08:36:54.021
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-23 08:36:54.027
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-05-23 08:37:02.908
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-05-23 08:37:08.417
+!MESSAGE Server Startup Succeeded
+!SESSION 2014-05-31 16:07:26.087 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-31 16:07:53.803
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-31 16:07:53.811
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-05-31 16:07:53.818
+!MESSAGE Module OntoWeb published without error.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="aminePlatform.util.Identifier"/>
+<fullyQualifiedTypeName name="aminePlatform.util.cg.CG"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.ontology.Ontology"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.lexicons.Lexicon"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.Type"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Type"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.BooleanControl.Type"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.FloatControl.Type"/>
+<fullyQualifiedTypeName name="javax.swing.MultiUIDefaults.MultiUIDefaultsEnumerator.Type"/>
+<fullyQualifiedTypeName name="sun.net.www.protocol.http.AuthCacheValue.Type"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.lexicons.ToString"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.ontology.Type"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.ontology.Individual"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.ontology.CS"/>
+<fullyQualifiedTypeName name="aminePlatform.kernel.ontology.Situation"/>
+</qualifiedTypeNameHistroy>

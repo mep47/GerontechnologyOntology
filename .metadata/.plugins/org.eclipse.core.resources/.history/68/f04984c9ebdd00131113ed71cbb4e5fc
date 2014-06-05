@@ -1,0 +1,5 @@
+package onto.ejb.model;
+
+public class Constants {
+
+}

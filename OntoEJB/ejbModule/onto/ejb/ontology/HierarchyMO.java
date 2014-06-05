@@ -1,0 +1,132 @@
+package onto.ejb.ontology;
+
+
+import java.util.Enumeration;
+
+import javax.ejb.Stateless;
+
+import aminePlatform.kernel.lexicons.Lexicon;
+import aminePlatform.kernel.lexicons.ToStringException;
+import aminePlatform.kernel.ontology.CS;
+import aminePlatform.kernel.ontology.Individual;
+import aminePlatform.kernel.ontology.Ontology;
+import aminePlatform.kernel.ontology.Situation;
+import aminePlatform.util.Identifier;
+import aminePlatform.kernel.ontology.Type;
+import aminePlatform.util.cg.CG;
+
+@Stateless
+public class HierarchyMO {
+	
+	public String loadHierarchy()
+	{
+		  Ontology ontology;
+		  Lexicon englishLexicon;
+		  StringBuffer output = new StringBuffer(500);
+		  
+		  String home = System.getProperty("user.home");
+
+		  Identifier english = new Identifier("English");
+		  Identifier rootIdentifier = new Identifier("Universal");
+		  String ontologyFilePath = home+"/GerontechnologyOntology/GerontechnologyOntology.xml";
+		  try
+		  {
+		    CG cg = new CG();
+		    ontology = Ontology.loadOntologyFromXML(ontologyFilePath, cg);
+		    englishLexicon = ontology.getLexicon(english);
+		    
+		//*****************************************************
+		//***** Read subtypes
+		//*****************************************************
+		        
+		    output.append("Subtypes of ").append(rootIdentifier).append(" : \n");
+		    output = loadNextHierarchy(englishLexicon, rootIdentifier, "", output);
+		    output.append("\n************************************");
+		
+
+		    System.out.println(output.toString());
+		  } catch (Exception e) {
+		    e.printStackTrace();
+		    System.exit(0);
+		  }
+		  
+		  System.out.println("Succesfully Completed");
+
+		  return output.toString();
+//		return "This is a test";
+	}
+	
+    @SuppressWarnings("unchecked")
+	private StringBuffer loadNextHierarchy(Lexicon englishLexicon, Identifier identifier, String typeIndent, StringBuffer output)
+	{
+		Enumeration<Identifier> e = englishLexicon.getDirectSubTypes(identifier);
+	    if (e != null)
+	    {
+		      while (e.hasMoreElements()) {
+			    Identifier id = (Identifier)e.nextElement();
+		    	output.append(typeIndent.toString()+id.getName()+"\n");
+		        Type type = englishLexicon.getTypeCS(id);
+		        CG cg = (CG) type.getDefinition(); // Note the casting to CG
+		        if (cg != null) {
+		          try {
+					output.append("<font color=\"blue\">"+typeIndent+cg.toString(englishLexicon)+"</font>\n\n");
+				  } catch (ToStringException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				  }
+		        }		        
+		        Enumeration<Individual> i = type.getIndividuals();
+		        if(i != null)
+		        {
+		        	while(i.hasMoreElements())
+		        	{
+		        		Individual individual = (Individual)i.nextElement();
+		        		CS individualCs = (CS)individual;
+		        		Type individualType = individual.getType();
+		        		Identifier individualId = englishLexicon.getIdentifier(individualCs);
+				    	output.append(typeIndent.toString()+"    "+individualId.getName()+"\n");
+				        CG individualCg = (CG) individual.getDescription(); // Note the casting to CG
+				        if (individualCg != null)
+				        {
+					      try {
+						      output.append("<font color=\"red\">"+typeIndent+"    "+individualCg.toString(englishLexicon)+"</font>\n\n");
+						  } catch (ToStringException e1) {
+								// TODO Auto-generated catch block
+						      e1.printStackTrace();
+						  }
+					   }		        
+		        	}
+		        }
+		        
+		        Enumeration<Situation> s = type.getSituations();
+		        if(s != null)
+		        {
+		        	while(s.hasMoreElements())
+		        	{
+		        		Situation situation = s.nextElement();
+		        		CG situationCg = (CG) situation.getDescription();
+				        if (situationCg != null)
+				        {
+					      try {
+						      output.append("<font color=\"green\">"+typeIndent+"    "+situationCg.toString(englishLexicon)+"</font>\n\n");
+						  } catch (ToStringException e1) {
+								// TODO Auto-generated catch block
+						      e1.printStackTrace();
+						  }
+					   }		        
+		        	}
+		        }
+
+			    output = loadNextHierarchy(englishLexicon, id, typeIndent+"    ", output);
+		      }
+	    }
+
+		return output;
+	}
+	public static void main(String[] args)
+	{
+		HierarchyMO hierarchy = new HierarchyMO();
+		hierarchy.loadHierarchy();
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move 1 resources to &apos;EarContent&apos;" description="Move 1 resources to &apos;EarContent&apos;" destination="EarContent" element1="EarContent/META-INF/lib" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1400490597992" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;aminePlatform8.jar&apos; to &apos;lib&apos;" description="Move &apos;aminePlatform8.jar&apos; to &apos;lib&apos;" destination="EarContent/lib" element1="/OntoEJB/lib/aminePlatform8.jar" element2="/OntoEJB/lib/jdom.jar" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1400490613743" updateReferences="true"/>
+</session>

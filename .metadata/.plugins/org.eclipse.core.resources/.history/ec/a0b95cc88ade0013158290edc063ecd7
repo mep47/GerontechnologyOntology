@@ -1,0 +1,116 @@
+package onto.ejb.ontology;
+
+
+import java.util.Enumeration;
+
+import aminePlatform.kernel.lexicons.Lexicon;
+import aminePlatform.kernel.lexicons.ToString;
+import aminePlatform.kernel.ontology.Ontology;
+import aminePlatform.kernel.ontology.Type;
+import aminePlatform.util.Identifier;
+import aminePlatform.util.cg.CG;
+
+
+public class Hierarchy {
+	
+	public String getNextElement()
+	{
+		  Ontology ontology;
+		  Lexicon englishLexicon;
+		  StringBuffer output = new StringBuffer("");
+
+		 Identifier english = new Identifier("English");
+		  Identifier rootIdentifier = new Identifier("Universal");
+		  Identifier rootRelIdentifier = new Identifier("Relation");
+		  String ontologyFilePath = "/home/mike/GerontechnologyOntology/GerontechnologyOntology.xml";
+		  try
+		  {
+		    CG cg = new CG();
+		    ontology = Ontology.loadOntologyFromXML(ontologyFilePath, cg);
+		    englishLexicon = ontology.getLexicon(english);
+		    
+		//*****************************************************
+		//***** Read subtypes
+		//*****************************************************
+		    Identifier GerontechnologyImpactMatrix = englishLexicon.getIdentifier("Gerontechnology-Impact-Matrix");
+		    Identifier LifeDomain = englishLexicon.getIdentifier("Life-Domain");
+		    Identifier Internet = englishLexicon.getIdentifier("Internet");
+		    Identifier Robot = englishLexicon.getIdentifier("Robot");
+		    Identifier Work = englishLexicon.getIdentifier("Work");
+		    StringBuffer typeIndent = new StringBuffer(50);
+
+		        
+		    output.append("Subtypes of ").append(rootIdentifier).append(" : \n");
+		    Enumeration e = englishLexicon.getDirectSubTypes(rootIdentifier);
+		    if (e != null)
+		    {
+		    	Identifier i1 = (Identifier)e.nextElement();
+		    	
+		    	int n = 0;
+			      while (e.hasMoreElements()) {
+				    Identifier id = (Identifier)e.nextElement();
+			    	output.append(typeIndent.toString()+id.getName()+"\n");
+			        if(n > 3)
+			        {
+			        	break;
+			        }
+			        n += 1;
+			      }
+		    }
+		    else output.append("none \n");
+		    {
+		      output.append("\n************************************");
+		    }
+		
+
+		//*****************************************************
+		//***** Get Minimum Common Supertype
+		//*****************************************************
+//		    output.append("\nMinimal common superType of ").append(Internet).append(" and ");
+//		    output.append(Robot).append(" is : ");
+//		    Identifier minComSuperType = englishLexicon.getMinComSuperType(Internet, Robot);
+//		    output.append(minComSuperType).append("\n************************************");
+//
+//		    output.append("\nMinimal common superType of ").append(Internet).append(" and ");
+//		    output.append(Work).append(" is : ");
+//		    minComSuperType = englishLexicon.getMinComSuperType(Work, Robot);
+//		    output.append(minComSuperType).append("\n************************************");
+
+		//*****************************************************
+		//***** Get the Definition of a Type
+		//*****************************************************
+//		    Type GerontechnologyImpactMatrixType = englishLexicon.getTypeCS(GerontechnologyImpactMatrix);
+//		    /*** The definition of Man ass a Conceptual Graph */
+//		    cg = (CG) GerontechnologyImpactMatrixType.getDefinition(); // Note the casting to CG
+//		    if (cg != null) {
+//		      output.append("\nDefinition of " + GerontechnologyImpactMatrix + " is :\n" +cg.toString(englishLexicon));
+//		    }
+//		    else
+//		    output.append("\nNo definition for "+GerontechnologyImpactMatrix);
+//		    output.append("\n************************************");
+		    
+		//******************************************************
+		//***** Get a Situation for a Type
+		//******************************************************
+//		    output.append("\nA situation for Gerontology-Impact-Matrix in English : \n");
+//		    output.append(((ToString) GerontechnologyImpactMatrixType.getSituationAt(1).getDescription()).toString(englishLexicon));
+//		    output.append("\n************************************");
+//
+		    System.out.println(output.toString());
+		  } catch (Exception e) {
+		    e.printStackTrace();
+		    System.exit(0);
+		  }
+		  
+		  System.out.println("Succesfully Completed");
+
+		  return "";
+	}
+	
+	public static void main(String[] args)
+	{
+		Hierarchy hierarchy = new Hierarchy();
+		hierarchy.getNextElement();
+	}
+
+}

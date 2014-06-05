@@ -1,0 +1,8 @@
+package onto.ejb.ontology;
+
+@Stateless
+public class Hierarchy {
+	
+	
+
+}
