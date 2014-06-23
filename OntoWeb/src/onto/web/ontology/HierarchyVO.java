@@ -7,6 +7,7 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 
 import onto.ejb.ontology.HierarchyMO;
+import onto.ejb.ontology.JsonHierarchyMO;
 
 @Named
 @ViewScoped
@@ -17,9 +18,18 @@ public class HierarchyVO implements Serializable {
 	@EJB
 	HierarchyMO hierarchyMO;
 	
+	@EJB
+	JsonHierarchyMO jsonHierarchyMO;
+	
 	public String loadHierarchy()
 	{
 		String hierarchy = "<pre>"+hierarchyMO.loadHierarchy()+"</pre>";
+		return hierarchy;
+	}
+	
+	public String loadJsonHierarchy()
+	{
+		String hierarchy = jsonHierarchyMO.loadHierarchy();
 		return hierarchy;
 	}
 	

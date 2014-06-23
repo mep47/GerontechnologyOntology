@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+
+<link rel="stylesheet" href="../css/jqtree.css"></link>
+ 
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script src="../js/tree.jquery.js"></script>
+ 
+</head>
+ 
+<body>
+ 
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+ $("#msgid").html("<h1>This is Hello World by JQuery</h1>");
+});
+
+var data = [
+            {
+                label: 'node1',
+                children: [
+                    { label: 'child1' },
+                    { label: 'child2' }
+                ]
+            },
+            {
+                label: 'node2',
+                children: [
+                    { label: 'child3' }
+                ]
+            }
+        ];
+
+$(function() {
+    $('#tree1').tree({
+        data: data
+    });
+});
+ 
+</script>
+ 
+<div id="msgid">
+</div>
+
+<div id="tree1"></div>
+
+</body>
+</html>

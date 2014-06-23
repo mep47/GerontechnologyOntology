@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="/home/mike/OntoApp.ear"/>
+	</list>
 	<list key="MRU_RUNTIME_STORE">
 		<item value="JBoss 7.3 Runtime"/>
 		<item value="JBoss 7.1 Runtime"/>

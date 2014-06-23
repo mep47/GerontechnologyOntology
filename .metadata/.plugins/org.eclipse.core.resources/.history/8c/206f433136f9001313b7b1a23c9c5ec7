@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Gerontechnology Ontology</title>
+  <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
+  	<link rel="stylesheet" href="css/style.css" type="text/css" />
+ 	<!--[if lt IE 8]>
+		<script src ="http://ie7-js.googlecode.com/svn/version/2.1(beta2)/IE8.js"></script>
+	<![endif]-->	
+</h:head>
+
+<h:body>
+
+  <ul id="nav">
+    <li><a href="#">Pages</a></li>
+      <ul>
+        <li><a ref="#">Full Listing</a></li>
+        <li><a ref="#">Tree View</a></li>
+      </ul>
+  
+  </ul>
+
+  <h:outputText escape="false" value="#{hierarchyVO.loadHierarchy()}" />
+
+  <script src="js/jquery.js"></script>  
+  <script src="js/bootstrap-dropdown.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+</h:body>
+
+</html>

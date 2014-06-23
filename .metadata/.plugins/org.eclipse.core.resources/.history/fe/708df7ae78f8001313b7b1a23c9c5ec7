@@ -1,0 +1,30 @@
+package onto.ejb.ontology;
+
+import java.util.List;
+
+public class JsonHierarchyNode {
+	
+	String label;
+	List<JsonHierarchyNode> children;
+	
+	public JsonHierarchyNode() {}
+	
+	public JsonHierarchyNode(String label)
+	{
+		this.label = label;
+	}
+	
+	public String getLabel() {
+		return label;
+	}
+	public void setLabel(String label) {
+		this.label = label;
+	}
+	public List<JsonHierarchyNode> getChildren() {
+		return children;
+	}
+	public void setChildren(List<JsonHierarchyNode> children) {
+		this.children = children;
+	}
+
+}

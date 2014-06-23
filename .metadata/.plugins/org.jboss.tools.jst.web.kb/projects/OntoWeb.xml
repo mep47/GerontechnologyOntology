@@ -11,6 +11,7 @@
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_3.1_spec-1.0.0.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/rmi/api/main/jboss-rmi-api_1.0_spec-1.0.4.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/org/hibernate/validator/main/hibernate-validator-5.1.0.Final.jar"/>
+  <path value="/home/mike/dev/eclipse-ontology/ontologyWorkspace/OntoApp/EarContent/lib/gson-2.2.4.jar"/>
   <path value="/home/mike/dev/eclipse-ontology/ontologyWorkspace/OntoApp/EarContent/lib/aminePlatform8.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/mail/api/main/javax.mail-1.5.1.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/xml/ws/api/main/jboss-jaxws-api_2.2_spec-2.0.2.Final.jar"/>
@@ -133,16 +134,16 @@
   </core>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="33" name="%0" offset="490" path="%2"/>
-   <linked-el length="33" name="%1" offset="490" path="%2"/>
+   <linked-el length="33" name="%0" offset="592" path="%2"/>
+   <linked-el length="33" name="%1" offset="592" path="%2"/>
   </el>
  </validation>
  <aliases>
   <alias path="/OntoWeb/src/onto/web/ontology/HierarchyVO.java" value="%0"/>
   <alias path="hierarchyVO" value="%1"/>
-  <alias path="/OntoWeb/WebContent/index.xhtml" value="%2"/>
+  <alias path="/OntoWeb/WebContent/pages/FullListing.xhtml" value="%2"/>
   <alias path="%0" value="/OntoWeb/src/onto/web/ontology/HierarchyVO.java"/>
-  <alias path="%2" value="/OntoWeb/WebContent/index.xhtml"/>
+  <alias path="%2" value="/OntoWeb/WebContent/pages/FullListing.xhtml"/>
   <alias path="%1" value="hierarchyVO"/>
  </aliases>
  <includes/>

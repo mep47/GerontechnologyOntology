@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Gerontechnology Ontology</title>
+  
+  <link rel="stylesheet" href="css/jqtree.css" />
+  
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="js/tree.jquery.js"></script>
+  
+</head>
+
+<body>
+
+  <script type="text/javascript">
+  
+  $(document).ready(function(){
+   $("#msgid").html("<h1>Gerontechnology Ontology Tree View</h1>");
+  });
+    
+  var data = [
+              {
+                  label: 'node1',
+                  children: [
+                      { label: 'child1' },
+                      { label: 'child2' }
+                  ]
+              },
+              {
+                  label: 'node2',
+                  children: [
+                      { label: 'child3' }
+                  ]
+              }
+          ];
+
+    $(function() {
+	    $('#tree1').tree({
+	        data: data
+	    });
+	});
+	
+  </script>
+  
+  <div id="msgid"></div>
+
+
+  <div id="tree1"></div>
+  
+</body>
+
+</html>

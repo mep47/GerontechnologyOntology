@@ -1,0 +1,5 @@
+package onto.ejb.ontology;
+
+public class JsonHierarchyNode {
+
+}

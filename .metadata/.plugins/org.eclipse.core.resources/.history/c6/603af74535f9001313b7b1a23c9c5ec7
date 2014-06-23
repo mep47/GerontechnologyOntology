@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Gerontechnology Ontology</title>
+  <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/></h:head>
+
+<h:body>
+
+<nav jsf:id="nav01"  class="navbar navbar-default" p:role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">TutorialsPoint</a>
+   </div>
+   <div>
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="#">iOS</a></li>
+         <li><a href="#">SVN</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" p:data-toggle="dropdown">
+               Java 
+               <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+               <li><a href="#">jmeter</a></li>
+               <li><a href="#">EJB</a></li>
+               <li><a href="#">Jasper Report</a></li>
+               <li class="divider"></li>
+               <li><a href="#">Separated link</a></li>
+               <li class="divider"></li>
+               <li><a href="#">One more separated link</a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</nav>
+
+<div class="dropdown">
+  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" p:data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" p:role="menu" p:aria-labelledby="dropdownMenu1">
+    <li p:role="presentation"><a p:role="menuitem" p:tabindex="-1" href="#">Something else here</a></li>
+    <li p:role="presentation" class="divider"></li>
+    <li p:role="presentation"><a p:role="menuitem" p:tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+<h:outputText escape="false" value="#{hierarchyVO.loadHierarchy()}" />
+
+<script src="js/jquery.js"></script>  
+<script src="js/bootstrap-dropdown.js"></script>
+
+</h:body>
+
+</html>
