@@ -5,6 +5,7 @@ import java.util.List;
 
 public class JsonHierarchyNode {
 	
+	String id;
 	String label;
 	List<JsonHierarchyNode> children;
 	
@@ -15,6 +16,7 @@ public class JsonHierarchyNode {
 			throw new NullPointerException("The label cannot be null or an empty String");
 		}
 		this.label = label;
+		this.id = label+"_id";
 		children = new ArrayList<JsonHierarchyNode>();
 	}
 	

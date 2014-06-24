@@ -84,12 +84,12 @@
   </path>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/batch/api/main/jboss-batch-api_1.0_spec-1.0.0.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxb-provider/main/resteasy-jaxb-provider-3.0.8.Final.jar"/>
-  <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.8.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/activation/api/main/activation-1.1.1.jar"/>
+  <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.8.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/validation/api/main/validation-api-1.1.0.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-3.0.8.Final.jar"/>
-  <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/enterprise/api/main/cdi-api-1.1.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/persistence/api/main/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/enterprise/api/main/cdi-api-1.1.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/jws/api/main/jsr181-api-1.0-MR1.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/javax/management/j2ee/api/main/jboss-j2eemgmt-api_1.1_spec-1.0.1.Final.jar"/>
   <path value="/home/mike/programs/wildfly-8.1.0.CR2/modules/system/layers/base/org/picketbox/main/picketbox-commons-1.0.0.final.jar"/>

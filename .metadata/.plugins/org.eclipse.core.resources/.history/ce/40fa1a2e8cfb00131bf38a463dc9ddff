@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+<title>jQuery Hello World</title>
+
+<link rel="stylesheet" href="../css/jqtree.css"></link>
+ 
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script src="../js/tree.jquery.js"></script>
+ 
+</h:head>
+ 
+<h:body>
+ 
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+ $("#msgid").html("<h1>Gerontechnology Ontology Tree View</h1>");
+});
+
+var data = #{hierarchyVO.loadJsonHierarchy()};
+
+// var $tree = $('#tree1');
+// $tree.tree({
+//     data: data
+// });
+
+// $tree.bind(
+//     'tree.click',
+//     function(event) {
+//         var node = event.node;
+//         alert(node.name);
+//     }
+// );
+
+alert("Test");
+
+$(function() {
+    $('#tree1').tree({
+        data: data
+    });
+});
+
+bind 'tree.click' event
+$('#tree1').bind(
+    'tree.click',
+    function(event) {
+        // The clicked node is 'event.node'
+        var node = event.node;
+        alert("label is " + node.name + ". id is " + node.id);
+    }
+); 
+ 
+</script>
+ 
+<div id="msgid">
+</div>
+
+<div id="tree1"></div>
+
+<!--  <div><h:outputText value="#{hierarchyVO.loadJsonHierarchy()}"></h:outputText></div>  -->
+
+</h:body>
+</html>

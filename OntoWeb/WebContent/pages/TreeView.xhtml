@@ -24,13 +24,29 @@ $(document).ready(function(){
  $("#msgid").html("<h1>Gerontechnology Ontology Tree View</h1>");
 });
 
+
 var data = #{hierarchyVO.loadJsonHierarchy()};
 
-$(function() {
-    $('#tree1').tree({
-        data: data
-    });
-});
+
+// $(function() {
+//     $('#tree1').tree({
+//         data: data
+//     });
+// });
+
+// bind 'tree.click' event
+// $('#tree1').bind(
+//  'tree.click',
+//  function(event) {
+//      // The clicked node is 'event.node'
+//      var node = event.node;
+//      alert("label is " + node.name + ". id is " + node.id);
+//  }
+// ); 
+
+// alert("test");
+
+
  
 </script>
  
@@ -40,6 +56,24 @@ $(function() {
 <div id="tree1"></div>
 
 <!--  <div><h:outputText value="#{hierarchyVO.loadJsonHierarchy()}"></h:outputText></div>  -->
+
+<script type="text/javascript">
+
+var $tree = $('#tree1');
+$tree.tree({
+    data: data
+});
+
+
+$tree.bind(
+ 'tree.click',
+ function(event) {
+     var node = event.node;
+  alert("label is " + node.name + ". id is " + node.id);
+ }
+);
+
+</script>
 
 </h:body>
 </html>
