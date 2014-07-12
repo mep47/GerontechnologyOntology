@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-<libraryInfo home="/home/mike/glassfish3/jdk7" version="1.7.0_11">
+<libraryInfo home="/home/mike/glassfish3/jdk7" version="1.7.0_45">
 <bootpath>
 <entry path="/home/mike/glassfish3/jdk7/jre/lib/resources.jar"/>
 <entry path="/home/mike/glassfish3/jdk7/jre/lib/rt.jar"/>

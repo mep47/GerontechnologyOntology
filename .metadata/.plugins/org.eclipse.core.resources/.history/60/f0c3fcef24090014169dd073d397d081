@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+<title>jQuery Hello World</title>
+
+<link rel="stylesheet" href="../css/bootstrap.css"  type="text/css"/>
+<link rel="stylesheet" href="../css/bootstrap-theme.css"  type="text/css"/>
+<link rel="stylesheet" href="../css/jqtree.css"></link>
+ 
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script src="../js/tree.jquery.js"></script>
+ 
+</h:head>
+ 
+<h:body>
+ 
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+ $("#msgid").html("<h1>Gerontechnology Ontology Tree View</h1>");
+});
+
+var data = #{hierarchyVO.loadJsonHierarchy()};
+
+//Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+
+function changeModalBodyText(nodeName) {
+    var input = document.getElementById('input');
+    input.value = nodeName;
+    input.onchange();
+}
+ 
+</script>
+ 
+<div id="msgid">
+</div>
+
+<h:panelGrid columns="2" style="width:100%; vertical-align:top;">
+  <div style="width: 50%;">
+	<div id="tree1"></div>
+  </div>
+  
+  <h:panelGrid columns="2" style="width:600px; height:800px; border:3px solid black; font-size:x-large;">
+  
+
+    	<h:outputText value="Concept1: " style="margin-bottom:10px; margin-left:60px;" />
+    	<h:panelGroup style="display:inline-block; width:220px; height:30px; border:2px solid black;">
+    		<h:outputText value=" " />
+    	</h:panelGroup>
+
+    
+
+    	<h:outputText value="Relation: " />
+    	<h:panelGroup style="display:inline-block; width:220px; height:30px; border:2px solid black;">
+    		<h:outputText value=" " />
+    	</h:panelGroup>
+
+    
+
+        <h:outputText value="Concept2: " />
+    	<h:panelGroup style="display:inline-block; width:220px; height:23px; border:2px solid black;">
+    		<h:outputText value=" " />
+    	</h:panelGroup>
+
+
+  </h:panelGrid>
+</h:panelGrid>
+
+<h:form prependId="false" style="display:none;">
+    <h:inputText id="input" value="#{hierarchyVO.itemName}">
+        <f:ajax event="change" execute="@form" listener="#{hierarchyVO.retrieveDefinition}" render=":modalBodyText" />
+    </h:inputText>
+</h:form>
+
+<script src="../js/bootstrap.js"></script>
+
+<script type="text/javascript">
+
+function showLoginPopup()
+{
+	$('body').popup({title:'Alert',id:'myTestPopup'});
+}
+
+var $tree = $('#tree1');
+$tree.tree({
+    data: data
+});
+
+var options = {"backdrop" : "static"}
+
+$tree.bind(
+ 'tree.click',
+ function(event) {
+    node = event.node;
+	changeModalBodyText(node.name);
+	$('#basicModal').modal('show');
+ }
+);
+
+</script>
+
+<div class="modal fade" id="basicModal" p:tabindex="-1" p:role="dialog" p:aria-labelledby="basicModal" p:aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+            	<h4 class="modal-title" id="myModalLabel">Conceptual Graph Definition</h4>
+            </div>
+            
+            <div class="modal-body">
+                <h:panelGroup  id="modalBodyText">
+                	<h:outputText value="#{hierarchyVO.graph}" />
+                </h:panelGroup>
+            </div>
+            
+            <div class="modal-footer">
+                <a href="#" onclick="javascript:$('#basicModal').modal('hide');" class="btn btn-default" p:data-dismiss="modal" p:aria-hidden="true">Close</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</h:body>
+</html>

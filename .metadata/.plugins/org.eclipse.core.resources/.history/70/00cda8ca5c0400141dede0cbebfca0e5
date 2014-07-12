@@ -1,0 +1,110 @@
+package onto.web.ontology;
+
+import java.io.Serializable;
+
+import javax.ejb.EJB;
+import javax.faces.context.FacesContext;
+import javax.faces.view.ViewScoped;
+import javax.inject.Named;
+
+import org.jboss.logging.Logger;
+
+import onto.ejb.ontology.HierarchyMO;
+import onto.ejb.ontology.JsonHierarchyMO;
+
+@Named
+@ViewScoped
+public class HierarchyVO implements Serializable {
+	
+	static final long serialVersionUID = -1;
+    private static final Logger logger = Logger.getLogger(HierarchyVO.class);
+	
+	@EJB
+	HierarchyMO hierarchyMO;
+	
+	@EJB
+	JsonHierarchyMO jsonHierarchyMO;
+	
+	public String loadHierarchy()
+	{
+		String hierarchy = "<pre>"+hierarchyMO.loadHierarchy()+"</pre>";
+		return hierarchy;
+	}
+	
+	public String loadJsonHierarchy()
+	{
+		String hierarchy = jsonHierarchyMO.loadHierarchy();
+		return hierarchy;
+	}
+	
+	private String itemName = null;
+	
+	public String getItemName()
+	{
+		return itemName;
+	}
+	
+	public void setItemName(String itemName)
+	{
+		this.itemName = itemName;
+	}
+	
+	private String graph = null;
+	
+	public String getGraph()
+	{
+		return graph;
+	}
+	
+	public void setGraph(String graph)
+	{
+		this.graph = graph;
+	}
+	
+	
+	public String retrieveDefinition()
+	{
+		logger.info("retierveDefintion - itemName="+itemName);
+		String graph = "["+itemName+"]-relation->[Concept2]";
+		logger.info("graph="+graph);;
+		
+		graph = jsonHierarchyMO.retrieveDefinition(itemName);
+		logger.info("graph String ="+graph);
+		
+		return graph;
+	}
+	
+	public static String escape(String s) {
+	    StringBuilder builder = new StringBuilder();
+	    boolean previousWasASpace = false;
+	    for( char c : s.toCharArray() ) {
+	        if( c == ' ' ) {
+	            if( previousWasASpace ) {
+	                builder.append("&nbsp;");
+	                previousWasASpace = false;
+	                continue;
+	            }
+	            previousWasASpace = true;
+	        } else {
+	            previousWasASpace = false;
+	        }
+	        switch(c) {
+	            case '<': builder.append("&lt;"); break;
+	            case '>': builder.append("&gt;"); break;
+	            case '&': builder.append("&amp;"); break;
+	            case '"': builder.append("&quot;"); break;
+	            case '\n': builder.append("<br>"); break;
+	            // We need Tab support here, because we print StackTraces as HTML
+	            case '\t': builder.append("&nbsp; &nbsp; &nbsp;"); break;  
+	            default:
+	                if( c < 128 ) {
+	                    builder.append(c);
+	                } else {
+	                    builder.append("&#").append((int)c).append(";");
+	                }    
+	        }
+	    }
+	    return builder.toString();
+	}
+
+}

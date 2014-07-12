@@ -1,0 +1,2422 @@
+!SESSION 2014-07-04 06:18:06.181 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:32:32.554
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:32:32.557
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:32:32.565
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-04 06:32:42.056
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-04 06:32:47.562
+!MESSAGE Server Startup Succeeded
+!SESSION 2014-07-04 06:34:20.120 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:34:38.450
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:34:38.456
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:34:38.470
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-04 06:34:46.151
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-04 06:34:51.823
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:37:58.944
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:38:10.122
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:38:10.607
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:38:10.612
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:38:10.619
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:39:44.303
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:39:59.281
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:39:59.286
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:39:59.297
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:41:33.099
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:41:33.102
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:41:33.124
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:41:53.447
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:41:53.450
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:41:53.458
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-07-04 06:42:14.030
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.jmx.integration 4 0 2014-07-04 06:42:29.128
+!MESSAGE Error connecting to jmx for server WildFly 9.0 Runtime 2 Server
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Unable to reach JBoss instance. Please ensure your server is up and exposes its management ports via the -Djboss.bind.address.management=yourwebsite.com system property
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:100)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:175)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:144)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:118)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.connectToStartedServer(JBossServerConnection.java:271)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection$1.run(JBossServerConnection.java:263)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.remotingjmx.RemotingConnector.internalRemotingConnect(RemotingConnector.java:240)
+	at org.jboss.remotingjmx.RemotingConnector.internalConnect(RemotingConnector.java:151)
+	at org.jboss.remotingjmx.RemotingConnector.connect(RemotingConnector.java:102)
+	at javax.management.remote.JMXConnectorFactory.connect(JMXConnectorFactory.java:268)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:84)
+	... 6 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.core 4 0 2014-07-04 06:42:29.131
+!MESSAGE Unable to reach JBoss instance. Please ensure your server is up and exposes its management ports via the -Djboss.bind.address.management=yourwebsite.com system property
+!STACK 0
+java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.remotingjmx.RemotingConnector.internalRemotingConnect(RemotingConnector.java:240)
+	at org.jboss.remotingjmx.RemotingConnector.internalConnect(RemotingConnector.java:151)
+	at org.jboss.remotingjmx.RemotingConnector.connect(RemotingConnector.java:102)
+	at javax.management.remote.JMXConnectorFactory.connect(JMXConnectorFactory.java:268)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBoss71ServerConnection.createConnection(JBoss71ServerConnection.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:175)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:144)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:118)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.connectToStartedServer(JBossServerConnection.java:271)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection$1.run(JBossServerConnection.java:263)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 16973827 2014-07-04 06:42:45.051
+!MESSAGE Killing the server process has failed. The process may still be running.
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.jboss.ide.eclipse.as.core.server.internal.LocalJBossBehaviorDelegate.forceStop(LocalJBossBehaviorDelegate.java:137)
+	at org.jboss.ide.eclipse.as.core.server.internal.LocalJBossBehaviorDelegate.stopImpl(LocalJBossBehaviorDelegate.java:81)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractJBossBehaviourDelegate.stop(AbstractJBossBehaviourDelegate.java:54)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.DelegatingJBoss7ServerBehavior.stop(DelegatingJBoss7ServerBehavior.java:144)
+	at org.eclipse.wst.server.core.internal.Server.stopImpl2(Server.java:3670)
+	at org.eclipse.wst.server.core.internal.Server.stopImpl(Server.java:3627)
+	at org.eclipse.wst.server.core.internal.Server$StopJob.run(Server.java:403)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2014-07-04 06:42:45.051
+!MESSAGE Terminate failed
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-07-04 06:42:45.051
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:42:54.728
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:42:54.733
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:42:54.743
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-04 06:42:59.680
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-04 06:43:05.186
+!MESSAGE Server Startup Succeeded
+!SESSION 2014-07-04 06:56:00.266 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:56:18.677
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:56:18.683
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:56:18.687
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:56:18.701
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-04 06:56:29.639
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-04 06:56:35.148
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:58:58.425
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:59:36.856
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:59:36.859
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 06:59:36.866
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:00:41.543
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:00:47.244
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:00:47.247
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:00:47.255
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:02:50.133
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:02:50.137
+!MESSAGE 5 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:02:50.141
+!MESSAGE 2 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:03:59.061
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:04:23.142
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:05:44.508
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:06:02.091
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:06:02.094
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:06:02.100
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:06:44.242
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:06:44.246
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:06:44.253
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:07:41.604
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:07:50.990
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:07:50.993
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:07:51.000
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:09:46.668
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:09:53.218
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:09:53.223
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:09:53.230
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:10:40.937
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:13:16.672
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:15:32.020
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:16:16.250
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:16:25.217
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:16:25.220
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:16:25.239
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:18:51.482
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:20:00.374
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:20:00.378
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:20:00.388
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:51:58.046
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:51:58.049
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:51:58.057
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 07:59:19.008
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:00:01.480
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:00:01.484
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:00:01.492
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:02:20.749
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:02:36.647
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:02:36.650
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:02:36.661
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:07:51.143
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:08:00.529
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:08:00.532
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:08:00.539
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:18.616
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:26.461
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:26.464
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:26.469
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:44.038
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:54.796
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:54.801
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:10:54.811
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:16:02.310
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:18:39.595
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:18:39.888
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:18:39.892
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:18:39.902
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:59:19.681
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:59:19.692
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 08:59:19.699
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:01:43.875
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:01:54.560
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:01:54.563
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:01:54.571
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:03:47.771
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:04:07.006
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:04:07.009
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:04:07.015
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-07-04 09:12:33.145
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-07-04 09:12:33.199
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-04 09:12:34.029
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-04 09:12:56.652
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:14:48.308
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:14:56.820
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:14:56.824
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:14:56.833
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:16:39.069
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:16:44.901
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:16:44.905
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:16:44.912
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-07-04 09:17:13.269
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-07-04 09:17:13.708
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-04 09:17:14.518
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-04 09:17:19.924
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:26:31.056
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:26:55.918
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:27:07.509
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:27:37.975
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:28:04.738
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:28:32.192
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:28:32.194
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:28:32.200
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:31:55.241
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:32:25.192
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:32:25.196
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:32:25.205
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:35:38.838
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:35:53.302
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:35:53.306
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:35:53.315
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:44:21.432
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:46:47.254
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:54:32.779
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:55:41.425
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:55:41.428
+!MESSAGE 6 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:55:41.431
+!MESSAGE 2 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:56:15.797
+!MESSAGE 2 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:56:26.667
+!MESSAGE 3 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:56:46.503
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:56:46.506
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 09:56:46.513
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:33:32.933
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:36:03.184
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:36:30.422
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:36:30.425
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:36:30.431
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:52:32.847
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:52:38.729
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:52:38.733
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-04 10:52:38.741
+!MESSAGE Module OntoWeb published without error.
+!SESSION 2014-07-05 05:51:43.128 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:52:40.950
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:52:40.960
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:52:40.980
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-05 05:52:42.196
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-05 05:52:48.732
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:55:15.616
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:56:19.664
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:56:19.671
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:56:19.687
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:58:28.652
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:58:33.625
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:58:33.632
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 05:58:33.646
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:07:31.826
+!MESSAGE 1 files modified in module OntoApp
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:08:00.952
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:08:42.929
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:08:42.936
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:08:42.954
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-07-05 06:08:52.469
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-07-05 06:08:52.598
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-05 06:09:04.535
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-05 06:09:10.645
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:23:02.569
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:30:06.185
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:30:06.191
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:30:06.206
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:30:58.795
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:31:28.252
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:31:28.257
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:31:28.273
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:34:41.734
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:34:52.235
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:34:52.241
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:34:52.255
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:39:52.807
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-07-05 06:42:08.800
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-07-05 06:42:08.938
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:42:17.955
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:42:17.960
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:42:17.972
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-05 06:42:25.532
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-05 06:42:31.651
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:46:43.521
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:46:43.527
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:46:43.540
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:55:18.925
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:56:53.232
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:56:54.197
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:56:54.203
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 06:56:54.216
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 07:01:10.429
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 07:01:10.434
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 07:01:10.446
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 08:59:59.137
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:00:06.496
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:00:06.520
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:00:06.532
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:01:00.557
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:01:10.359
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:01:10.364
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:01:10.375
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:03:01.302
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:03:08.985
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:03:08.994
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:03:09.006
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:06:18.337
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:06:27.560
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:06:27.565
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:06:27.576
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:08:12.542
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:08:23.706
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:08:23.712
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:08:23.739
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:09:21.034
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:09:21.040
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:09:21.053
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:10:05.078
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:10:05.084
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:10:05.098
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:11:01.690
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:11:06.353
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:11:06.358
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:11:06.374
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:12:21.234
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:12:32.055
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:12:32.059
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:12:32.070
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:13:26.793
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:13:31.583
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:13:31.588
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:13:31.601
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:14:44.052
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:14:56.497
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:14:56.502
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:14:56.514
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:15:47.645
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:15:56.513
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:15:56.519
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:15:56.533
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:16:48.276
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:17:03.322
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:17:03.327
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 09:17:03.338
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 10:43:12.803
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 10:53:18.750
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 10:56:45.892
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:00:48.741
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:01:24.473
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:02:14.813
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:02:14.817
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:02:14.827
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:15.776
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:25.446
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:25.457
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:25.470
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:47.213
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:47.218
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:09:47.230
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:11:51.306
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:11:59.598
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:11:59.603
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:11:59.614
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:15:13.025
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:15:21.114
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:15:21.118
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:15:21.133
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:18:42.234
+!MESSAGE 1 files modified in module OntoEJB
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:19:14.690
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:19:14.695
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:19:14.704
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:23:22.810
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:43:49.789
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:43:49.793
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:43:49.803
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:44:23.601
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:44:54.587
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:44:54.592
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:44:54.604
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:46:24.792
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:46:24.797
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:46:24.807
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:51:23.785
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:52:16.861
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:55:32.372
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:56:01.539
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:56:15.049
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:56:33.579
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:56:40.674
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:56:40.679
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 11:56:40.692
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:00:31.479
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:01:22.712
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:01:37.858
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:01:37.862
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:01:37.873
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:23:19.736
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:23:33.352
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:23:33.356
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:23:33.371
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:25:04.188
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:25:24.420
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:25:24.424
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:25:24.434
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:29:30.725
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:29:39.609
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:29:39.615
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:29:39.625
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:30:38.226
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:30:38.231
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:30:38.241
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:31:56.314
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:32:05.301
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:32:05.305
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:32:05.315
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:33:33.363
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:33:54.806
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:33:54.810
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:33:54.844
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:35:12.715
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:39:03.340
+!MESSAGE 1 files modified in module OntoWeb
+!SESSION 2014-07-05 12:39:10.658 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:39:59.271
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:39:59.299
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:39:59.318
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-05 12:40:43.014
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-05 12:40:48.836
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:42:01.042
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:42:14.246
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:42:14.252
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 12:42:14.265
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:09:06.605
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:09:20.893
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:09:20.899
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:09:20.914
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:10:12.862
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:12:23.525
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:13:15.803
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:14:02.343
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:14:30.184
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:14:47.583
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:15:02.902
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:15:54.375
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:18:32.391
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:18:48.127
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:18:48.132
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:18:48.149
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:21:14.815
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:21:44.402
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:22:03.374
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:22:03.379
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:22:03.392
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:24:11.082
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:24:17.055
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:24:17.060
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:24:17.072
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:27:11.946
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:27:26.428
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:27:26.433
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:27:26.447
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:34:11.377
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:34:28.406
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:34:28.412
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 17:34:28.426
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:05:57.910
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:06:00.587
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:06:00.593
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:06:00.606
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:15:10.611
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:15:48.171
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:17:36.411
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:18:05.727
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:18:23.442
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:18:23.448
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:18:23.460
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:19:52.258
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:20:43.181
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:20:43.187
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:20:43.201
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:35:21.706
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:35:40.435
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:35:40.444
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-05 18:35:40.461
+!MESSAGE Module OntoWeb published without error.
+!SESSION 2014-07-07 20:07:22.344 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:08:13.584
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:08:13.594
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:08:13.614
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-07 20:08:25.957
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-07 20:08:32.581
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:50:25.969
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:51:01.260
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:52:10.294
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:53:03.897
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:53:27.137
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:53:42.799
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:54:00.568
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:54:09.923
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:54:18.633
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:55:18.641
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:55:32.363
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:55:32.370
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:55:32.401
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:57:10.210
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:57:21.905
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:57:21.911
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 20:57:21.928
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 21:07:19.340
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 21:07:46.632
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 21:07:46.636
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-07 21:07:46.649
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:12:29.393
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:12:41.617
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:12:57.114
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:13:41.382
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:13:52.473
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:14:14.783
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:14:53.694
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:14:58.471
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:15:10.085
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:28:43.501
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 04:44:22.122
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:08:58.411
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:12:26.154
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:12:26.160
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:12:26.175
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:43:05.210
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:47:27.518
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:47:53.518
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:47:53.523
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 05:47:53.537
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:01:35.337
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:01:42.467
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:01:42.472
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:01:42.484
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:03:13.370
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:03:23.551
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:03:23.556
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:03:23.570
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:05:22.930
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:05:32.731
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:05:32.736
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:05:32.747
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:07:50.383
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:08:02.752
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:08:11.233
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:08:11.237
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:08:11.248
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:13:22.530
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:13:27.112
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:13:27.116
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:13:27.127
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:14:52.647
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:15:00.549
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:15:00.554
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:15:00.564
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:27:52.834
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:28:03.517
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:28:03.522
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 06:28:03.533
+!MESSAGE Module OntoWeb published without error.
+!SESSION 2014-07-08 10:16:04.446 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:16:32.067
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:16:32.077
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:16:32.099
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-08 10:16:34.143
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-08 10:16:40.964
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:18:29.683
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:18:44.950
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:18:44.956
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:18:44.974
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:19:56.534
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:20:05.992
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:20:05.999
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:20:06.020
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:21:04.957
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:21:11.798
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:21:11.803
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:21:11.815
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:22:19.703
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:22:29.971
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:22:29.976
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:22:29.987
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:25:10.902
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:25:19.707
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:25:19.712
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:25:19.724
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:28:48.570
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:28:49.867
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:28:49.872
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-08 10:28:49.888
+!MESSAGE Module OntoWeb published without error.
+!SESSION 2014-07-11 08:55:58.881 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:22:16.840
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:22:16.846
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:22:16.859
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-07-11 09:22:24.657
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-07-11 09:22:31.597
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:28:19.716
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:28:19.991
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:28:19.998
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:28:20.008
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:02.405
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:13.649
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:13.654
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:13.666
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:37.663
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:37.670
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:30:37.682
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:55:21.443
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:55:41.415
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:55:41.420
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 09:55:41.431
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:09:19.844
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:09:30.306
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:09:30.310
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:09:30.322
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:11:09.448
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:11:16.312
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:11:16.317
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:11:16.328
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:14:28.493
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:14:34.946
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:14:34.951
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:14:34.963
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:15:05.757
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:15:15.015
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:15:15.020
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:15:15.032
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:17:25.490
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:17:32.019
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:17:32.023
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:17:32.037
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:31:14.926
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:31:23.217
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:31:23.222
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:31:23.237
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:43:30.877
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:44:06.936
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:44:06.941
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:44:06.952
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:48:13.900
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:48:24.389
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:48:24.394
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:48:24.406
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:56:37.774
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:56:56.907
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:56:56.912
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:56:56.924
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 10:59:39.172
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:01:51.820
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:01:51.826
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:01:51.845
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:02:33.937
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:03:04.388
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:03:04.392
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:03:04.403
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:03:38.588
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:07:58.295
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:08:47.146
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:08:55.034
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:08:55.038
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:08:55.049
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:16:10.131
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:16:14.820
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:16:14.824
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:16:14.834
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:20:06.433
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:20:12.676
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:20:12.681
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:20:12.691
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:21:24.554
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:21:24.559
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:21:24.581
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:22:10.753
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:22:14.753
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:22:14.758
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:22:14.769
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:24:37.787
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:24:37.792
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:24:37.803
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:26:40.591
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:26:40.595
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:26:40.607
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:27:51.461
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:27:55.265
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:27:55.277
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:27:55.303
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:29:32.932
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:29:32.936
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:29:32.949
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:29:57.247
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:30:21.036
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:30:21.041
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:30:21.052
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:33:04.037
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:33:04.043
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:33:04.079
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:34:39.232
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:35:11.453
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:35:23.363
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:35:23.367
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:35:23.391
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:37:57.795
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:38:02.290
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:38:02.294
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:38:02.304
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:39:52.675
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:39:57.494
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:39:57.499
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 11:39:57.510
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:54:38.593
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:54:45.635
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:54:45.639
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:54:45.650
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:58:19.474
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:58:23.460
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:58:23.465
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 13:58:23.475
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:00:01.046
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:00:07.436
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:00:07.441
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:00:07.450
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:02:49.336
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:02:56.140
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:02:56.144
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:02:56.154
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:04:09.529
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:04:20.080
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:04:25.954
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:04:25.958
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:04:25.995
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:14:04.149
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:14:42.604
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:15:18.987
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:15:30.766
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:19:50.166
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:20:15.487
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:20:15.492
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:20:15.504
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:23:05.987
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:23:11.191
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:23:11.195
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:23:11.206
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 14:26:48.399
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:13:28.952
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:13:45.223
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:13:45.227
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:13:45.237
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:14:17.829
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:14:32.673
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:14:32.678
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:14:32.688
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:17:32.743
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:17:44.305
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:17:44.309
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:17:44.319
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:18:43.905
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:18:49.066
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:18:49.070
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:18:49.081
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:13.072
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:18.780
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:18.784
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:18.795
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:50.253
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:55.649
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:55.653
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:19:55.664
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:21:42.186
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:22:05.665
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:22:13.552
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:22:13.556
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:22:13.567
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:39:24.312
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:39:39.190
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:40:03.964
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:40:40.715
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:41:04.001
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:41:20.261
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:41:20.266
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:41:20.278
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:43:43.681
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:43:56.386
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:43:56.391
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:43:56.402
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:52:07.005
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:52:19.658
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:52:19.663
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 16:52:19.672
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:10:09.156
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:11:17.422
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:14:27.802
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:14:32.386
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:14:32.391
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:14:32.402
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:16:35.690
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:16:52.190
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:16:52.195
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:16:52.205
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:20:21.172
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:20:21.180
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:20:21.217
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:21:57.934
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:22:07.166
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:22:07.171
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:22:07.180
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:23:42.881
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:23:48.992
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:23:48.996
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:23:49.006
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:25:34.748
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:28:07.930
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:28:24.666
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:28:43.707
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:28:43.711
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:28:43.722
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:31:33.961
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:32:57.845
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:32:57.852
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-11 17:32:57.862
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:23:03.826
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:24:32.783
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:25:06.461
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:25:06.489
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:25:06.500
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:26:00.032
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:26:00.036
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:26:00.048
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:29:09.680
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:29:14.864
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:29:14.869
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:29:14.879
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:31:19.870
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:32:00.379
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:32:00.384
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:32:00.397
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:33:35.297
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:33:39.963
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:33:39.975
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:33:39.986
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:34:36.035
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:34:38.008
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:34:38.013
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:34:38.024
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:35:18.783
+!MESSAGE 1 files modified in module OntoWeb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:35:25.136
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:35:25.140
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:35:25.150
+!MESSAGE Module OntoWeb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:38:31.095
+!MESSAGE Module OntoApp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:38:31.099
+!MESSAGE Module OntoEJB published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-07-12 05:38:31.129
+!MESSAGE Module OntoWeb published without error.

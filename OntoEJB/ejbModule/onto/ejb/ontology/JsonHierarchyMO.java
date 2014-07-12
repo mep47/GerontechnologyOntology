@@ -6,6 +6,8 @@ import java.util.List;
 
 import javax.ejb.Stateless;
 
+import org.jboss.logging.Logger;
+
 import com.google.gson.Gson;
 
 import aminePlatform.kernel.lexicons.Lexicon;
@@ -21,6 +23,7 @@ import aminePlatform.util.cg.CG;
 @Stateless
 public class JsonHierarchyMO {
 	
+    private static final Logger logger = Logger.getLogger(JsonHierarchyMO.class);	
 	
 	public String loadHierarchy()
 	{
@@ -86,6 +89,53 @@ public class JsonHierarchyMO {
 	      }
 		
 	}
+    
+    public String retrieveDefinition(String itemName)
+    {
+		  Ontology ontology;
+		  Lexicon englishLexicon;
+		  CG cg;
+		  String itemGraphStr = null;
+		  
+		  logger.info("Starting retrieveDefinition - itemName="+itemName);
+		  
+		  String home = System.getProperty("user.home");
+
+		  Identifier english = new Identifier("English");
+		  String ontologyFilePath = home+"/GerontechnologyOntology/GerontechnologyOntology.xml";
+		  Identifier itemIdentifier = new Identifier(itemName.trim());
+		  
+		  try
+		  {
+			cg = new CG();
+		    ontology = Ontology.loadOntologyFromXML(ontologyFilePath, cg);
+		    englishLexicon = ontology.getLexicon(english);
+	        Type itemType = englishLexicon.getTypeCS(itemIdentifier);
+	        if(itemType != null)
+	        {
+		        cg = (CG) itemType.getDefinition(); // Note the casting to CG
+		        if(cg != null)
+		        {
+		        	itemGraphStr = cg.toString(englishLexicon);
+		        }
+		        else
+		        {
+		        	itemGraphStr = "There is no Definition for "+itemName;
+		        }
+	        }
+	        else
+	        {
+	        	itemGraphStr = "Item "+itemName+" does not exist in the ontology.";
+	        }
+		  }
+		  catch (Exception e)
+		  {
+			  logger.error(e, e);
+		  }
+	        
+		  return itemGraphStr;
+//    	return "[C1]-r->[C2]";
+    }
 	
 	public static void main(String[] args)
 	{

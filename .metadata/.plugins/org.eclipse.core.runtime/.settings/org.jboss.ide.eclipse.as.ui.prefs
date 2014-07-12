@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
-org.jboss.ide.eclipse.as.ui.defaultWebServer=WildFly 8.0 Runtime Server1400412316290
+org.jboss.ide.eclipse.as.ui.defaultWebServer=WildFly 9.0 Runtime 2 Server1404469924944
 org.jboss.ide.eclipse.as.ui.preferences.disabled.automatic.server.view=true
 org.jboss.ide.eclipse.as.ui.preferences.enabledDecorators.1=true
 org.jboss.ide.eclipse.as.ui.preferences.runtime.last.type.org.jboss.ide.eclipse.as.runtime.71=/home/mike/programs/jboss-eap-6.2
-org.jboss.ide.eclipse.as.ui.preferences.runtime.last.type.org.jboss.ide.eclipse.as.runtime.wildfly.80=/home/mike/programs/wildfly-8.1.0.CR2
-org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=WildFly 8.0 Runtime Server1400412316290
+org.jboss.ide.eclipse.as.ui.preferences.runtime.last.type.org.jboss.ide.eclipse.as.runtime.wildfly.80=/home/mike/Programs/wildfly-9.0.0.Alpha1-SNAPSHOT
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=WildFly 9.0 Runtime 2 Server1404469924944

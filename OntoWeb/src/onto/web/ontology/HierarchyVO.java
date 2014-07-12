@@ -3,8 +3,12 @@ package onto.web.ontology;
 import java.io.Serializable;
 
 import javax.ejb.EJB;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
 import javax.faces.view.ViewScoped;
 import javax.inject.Named;
+
+import org.jboss.logging.Logger;
 
 import onto.ejb.ontology.HierarchyMO;
 import onto.ejb.ontology.JsonHierarchyMO;
@@ -14,6 +18,7 @@ import onto.ejb.ontology.JsonHierarchyMO;
 public class HierarchyVO implements Serializable {
 	
 	static final long serialVersionUID = -1;
+    private static final Logger logger = Logger.getLogger(HierarchyVO.class);
 	
 	@EJB
 	HierarchyMO hierarchyMO;
@@ -31,6 +36,39 @@ public class HierarchyVO implements Serializable {
 	{
 		String hierarchy = jsonHierarchyMO.loadHierarchy();
 		return hierarchy;
+	}
+	
+	private String itemName = null;
+	
+	public String getItemName()
+	{
+		return itemName;
+	}
+	
+	public void setItemName(String itemName)
+	{
+		this.itemName = itemName;
+	}
+	
+	private String graph = null;
+	
+	public String getGraph()
+	{
+		return graph;
+	}
+	
+	public void setGraph(String graph)
+	{
+		this.graph = graph;
+	}
+	
+	
+	public void retrieveDefinition(AjaxBehaviorEvent event)
+	{
+		logger.info("retierveDefintion - itemName="+itemName);
+		
+		graph = jsonHierarchyMO.retrieveDefinition(itemName);
+		logger.info("graph String ="+graph);
 	}
 	
 	public static String escape(String s) {
